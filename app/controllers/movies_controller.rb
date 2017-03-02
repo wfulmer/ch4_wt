@@ -8,6 +8,9 @@ class MoviesController < ApplicationController
         @movie = Movie.find(id)
     end
     
+    def new
+       @movie = Movie.new
+    end
     # add below all other methods
 private
 
